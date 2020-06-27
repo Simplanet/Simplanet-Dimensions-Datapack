@@ -1,0 +1,33 @@
+{
+	"parent": "simplanet:portals/root",
+	"rewards": {
+		"function": "simplanet:portals/simplanet_nether_overworld"
+	},
+	"criteria": {
+		"portal_simplanet_nether_overworld": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "simplanet:the_nether",
+				"position": {
+					"x": {
+						"min": 1063,
+						"max": 1065
+					},
+					"y": {
+						"min": 116,
+						"max": 120
+					},
+					"z": {
+						"min": 0,
+						"max": 2
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"portal_simplanet_nether_overworld"
+		]
+	]
+}

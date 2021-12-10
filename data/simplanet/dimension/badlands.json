@@ -3,7 +3,7 @@
 	"generator": {
 		"biome_source": {
           "seed": 665159571757756323,
-		  "biome": "minecraft:modified_badlands_plateau",
+		  "biome": "minecraft:wooded_badlands",
           "type": "minecraft:fixed"
         },
         "seed": 665159571757756323,

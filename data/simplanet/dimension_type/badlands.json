@@ -7,6 +7,7 @@
 	"has_ceiling": false,
 	"ambient_light": 0.0,
 	"fixed_time": 6000,
+	"piglin_safe": false,
 	"bed_works": true,
 	"respawn_anchor_works": true,
 	"has_raids": false,

@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:overworld",
+	"type": "simplanet:badlands",
 	"generator": {
 		"biome_source": {
 			"seed": 665159571757756323,

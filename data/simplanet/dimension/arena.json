@@ -1,0 +1,20 @@
+{
+	"type": "simplanet:arena",
+	"generator": {
+		"settings": {
+			"lakes": false,
+			"features": false,
+			"biome": "minecraft:mushroom_fields",
+			"layers": [
+				{
+					"height": 64,
+					"block": "minecraft:bedrock"
+				}
+			],
+			"structures": {
+				"structures": {}
+			}
+		},
+		"type": "minecraft:flat"
+	}
+}

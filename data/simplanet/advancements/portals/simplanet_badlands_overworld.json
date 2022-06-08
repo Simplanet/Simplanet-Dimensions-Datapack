@@ -7,19 +7,23 @@
 		"portal_simplanet_badlands_overworld": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"dimension": "simplanet:badlands",
-				"position": {
-					"x": {
-						"min": -19,
-						"max": -17
-					},
-					"y": {
-						"min": 88,
-						"max": 90
-					},
-					"z": {
-						"min": 44,
-						"max": 46
+				"player": {
+					"location": {
+						"dimension": "simplanet:badlands",
+						"position": {
+							"x": {
+								"min": -19,
+								"max": -17
+							},
+							"y": {
+								"min": 88,
+								"max": 90
+							},
+							"z": {
+								"min": 44,
+								"max": 46
+							}
+						}
 					}
 				}
 			}

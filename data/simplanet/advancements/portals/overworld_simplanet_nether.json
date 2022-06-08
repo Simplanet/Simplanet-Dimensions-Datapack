@@ -7,19 +7,23 @@
 		"portal_overworld_simplanet_nether": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"dimension": "minecraft:overworld",
-				"position": {
-					"x": {
-						"min": 8525,
-						"max": 8527
-					},
-					"y": {
-						"min": 97,
-						"max": 99
-					},
-					"z": {
-						"min": -2,
-						"max": 0
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 8525,
+								"max": 8527
+							},
+							"y": {
+								"min": 97,
+								"max": 99
+							},
+							"z": {
+								"min": -2,
+								"max": 0
+							}
+						}
 					}
 				}
 			}

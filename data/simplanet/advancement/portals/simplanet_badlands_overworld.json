@@ -8,20 +8,24 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"dimension": "simplanet:badlands",
-						"position": {
-							"x": {
-								"min": -19,
-								"max": -17
-							},
-							"y": {
-								"min": 88,
-								"max": 90
-							},
-							"z": {
-								"min": 44,
-								"max": 46
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "simplanet:badlands",
+							"position": {
+								"x": {
+									"min": -19,
+									"max": -17
+								},
+								"y": {
+									"min": 88,
+									"max": 90
+								},
+								"z": {
+									"min": 44,
+									"max": 46
+								}
 							}
 						}
 					}
